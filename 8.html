@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>8</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h5>Bootstrap Modal</h5>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#largeModal">
+                Larj Modal
+            </button>
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#mediumModal">
+                Medium Modal
+            </button>
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#smallModal">
+                Smol Modal
+            </button>
+        </div>
+
+        <div class="modal fade" id="largeModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-hearder bg-success text-white">
+                        <h4>Larj Modal</h4>
+                        <span class="close" data-dismiss="modal">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        It is a long established fact .....
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-success">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="mediumModal">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-hearder bg-info text-white">
+                        <h4>Medium Modal</h4>
+                        <span class="close" data-dismiss="modal">&times</span>
+                    </div>
+                    <div class="modal-body">
+                        It is a long established fact .....
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-info">save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="smallModal">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header bg-danger text-white">
+                        <h4>Smol Modal</h4>
+                        <span class="close" data-dismiss="modal">&times</span>
+                    </div>
+                    <div class="modal-body">
+                        It is a long established fact .....
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-danger">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
